@@ -12,7 +12,7 @@ import (
 var StartTime = time.Now().Unix() // unit: second
 var Version = "v0.0.0"            // this hard coding will be replaced automatically when building, no need to manually change
 var SystemName = "New API"
-var ServerAddress = "https://api-s1-aiearthdev.zeabur.app"
+var ServerAddress = "https://vip-mj-aiearth-hk.zeabur.app"
 var PayAddress = ""
 var EpayId = ""
 var EpayKey = ""
