@@ -67,12 +67,6 @@ const SiderBar = () => {
   const headerButtons = useMemo(
     () => [
       {
-        text: 'Playground',
-        itemKey: 'playground',
-        to: '/playground',
-        icon: <IconCommentStroked />,
-      },
-      {
         text: '模型价格',
         itemKey: 'pricing',
         to: '/pricing',
