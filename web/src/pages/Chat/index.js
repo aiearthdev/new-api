@@ -32,11 +32,11 @@ const ChatPage = () => {
   const iframeSrc = keys.length > 0 ? comLink(keys[0]) : '';
 
   return !isLoading && iframeSrc ? (
-    <iframe
+    <a
       src={iframeSrc}
       style={{ width: '100%', height: '85vh', border: 'none' }}
-      title="Token Frame"
-    />
+      target="_blank">
+    </a>
   ) : (
     <div>
       <Layout>
